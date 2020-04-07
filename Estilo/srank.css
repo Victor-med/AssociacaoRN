@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap'); 
+
+main{
+    margin: 0 auto;
+    padding: 2em;
+    width: 64%;
+    text-align: center;
+    height: 80em;
+    text-align: justify;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 3px solid #fdf659;
+    font-weight: normal;
+}
+
+main p{
+    padding-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+#medalhas, #modalidade{
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#medalhas th, #modalidade th{
+    background-color: #fdf659;
+    border-bottom: 2px solid #dddddd;
+}
+
+#medalhas #par, #modalidade #par{
+    background-color: #f3f3f3;
+}
+
+#medalhas, #medalhas th, #medalhas td, #modalidade, #modalidade th, #modalidade td{
+    padding: 1em;
+}
+
+th#Bronze{
+    background-color: #b87333;
+}
+
+th#Prata{
+    background-color: silver;
+}
+
+th#Ouro{
+    background-color: gold;
+}
+
+tr#par1{
+    background-color: #f3f3f3;
+    border-bottom: 3px solid #fdf659;
+}
+
+p#aviso{
+    text-align: center;
+    font-size: 1em;
+}
+
+main h2{
+    padding-top: 2em;
+    width: 20%;
+    border-bottom: 3px solid #fdf659;
+}
+
+form{
+    padding-top: 1em;
+    text-align: center;
+}
+
+/* select{
+    padding: 1em;
+    border: 2px solid #dddddd;
+}
+
+input{
+    margin-left: 2em;
+    background-color: springgreen;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    border-radius: 5em;
+    transition: 0.3s;
+}
+
+input:hover{
+    background-color: turquoise;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+} */
+
+h4#atencao{
+    padding-top: 2em;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-overflow: none;
+}
+
+h3{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}

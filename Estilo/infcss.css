@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+main{
+    height: 47em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 3px solid #fdf659;
+    font-weight: normal;
+}
+
+main p{
+    padding-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+ul#bene{
+    padding-left: 0.5em;
+    list-style-type: "\1F44D";
+}
+
+ul#bene li{
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+ul#bene li:hover{
+    text-decoration: underline #fdf659;
+    cursor: pointer;
+}
+
+#robert{ 
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+    height: 10em;
+    border: 1px solid slateblue;
+}
+
+#robert ul{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    font-size: 1.3em;
+    list-style-type: none;
+    color: #fdf659;
+}
+
+#robert li{
+    padding-top: 1.5em;
+}
+
+#robert li:hover{
+    cursor: pointer;
+    color: #f0e403;
+    font-size: 22px;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#trying-to-get-it{
+    display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+header{
+   width: 100%; 
+   height: 14em;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   background-color: #fdf659;
+}
+
+figure img{
+    margin-left: 3em;
+}
+
+figure.oi img{
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+ul.list-header li{
+    display: inline;
+    margin: 2.5em;
+    font-size: 1em;
+}
+
+li a{
+    text-decoration: none;
+    color: #353a36;
+}
+
+ul.list-header li a:hover{
+    color: #2ccf7a;
+}
+
+main{
+    margin: 0 auto;
+    padding: 2em;
+    width: 64%;
+    text-align: center;
+    height: 280em;
+    text-align: justify;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+footer{
+    margin: 0 auto;
+    background-color: #2ccf7a;
+    height: 28vh;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+footer img{
+    max-width: 50px;
+}
+
+footer p{
+    margin-left: 1em;
+    margin-top: 9em;
+    font-size: 0.8em;
+}
+
+    header li{
+        font-size: 0.5em;
+    }
+
+    header ul{
+        margin-top: 10vw;
+        margin-left: 5vw;
+    }
+
+    ul.list-header-sandwich{
+        visibility: hidden;
+    }
+
+    @media screen and (max-width: 1200px){
+        nav ul.list-header{
+            visibility: hidden; 
+        }
+
+        nav ul.list-header-sandwich{
+            position: absolute;
+            top: 3em;
+            left: 40vw;
+            visibility: visible;
+            list-style-type: none;
+            background-color: #fdf659;
+            text-align: center;
+        }
+
+        ul.list-header-sandwich li{
+            padding-bottom: 1em;
+            padding-top: 0.5em;
+            font-size: 1em;
+        }
+
+        ul.list-header-sandwich li:hover{
+            background-color: #2ccf7a;
+        }
+    }
+
+    div#copyright{
+        text-align:right;
+        background-color: #2ccf7a;
+    }
+
+    #copyright p{
+        padding-right: 1em;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }

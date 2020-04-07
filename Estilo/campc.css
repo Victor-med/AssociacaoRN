@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+main{
+    margin: 0 auto;
+    padding: 2em;
+    width: 64%;
+    text-align: center;
+    height: 238em;
+    text-align: justify;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 3px solid #fdf659;
+    font-weight: normal;
+}
+
+main p{
+    padding-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+div#bloco{
+    padding-top: 1em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border-radius: 12px 0px 12px 0px;
+    width: 30%;
+    height: 15em;
+    background-color: springgreen;
+    margin-bottom: 3em;
+}
+
+div#imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6, #imagem7, #imagem8, #imagem9, #imagem10, #imagem11, #imagem12{
+    position: fixed;
+    margin: 0 auto;
+    top: 9em;
+    text-align: center;
+    width: 100%;
+    visibility: hidden;
+}
+
+#imagem1 img, #imagem2 img, #imagem3 img, #imagem4 img, #imagem5 img, #imagem6 img, #imagem7 img, #imagem8 img, #imagem9 img, #imagem10 img, #imagem11 img, #imagem12 img{
+    max-width: 500px;
+    display: inline-block;
+    box-shadow: 1em 1em 6em;
+}
+
+div#bloco:hover{
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+}
+
+div#bloco p{
+    font-size: 1em;
+}

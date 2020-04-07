@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+main{
+    margin: 0 auto;
+    padding: 2em;
+    width: 64%;
+    text-align: center;
+    height: 280em;
+    text-align: justify;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 3px solid #fdf659;
+    font-weight: normal;
+}
+
+main p{
+    padding-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+main h2{
+    padding-top: 2em;
+    width: 20%;
+    border-bottom: 3px solid #fdf659;
+}
+
+main div#alles{
+    width: 100%;
+    height: 18em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1px solid black;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+div#alles img{
+    max-width: 245px;
+}
+
+div#alles img:hover{
+    max-width: 245px;
+    box-shadow: 3px 3px 6px grey;
+}
+
+bottom{
+    background-color: springgreen;
+    width: 5em;
+    height: 1.5em;
+    padding: 1em;
+    margin-left: -2em;;
+    color: white;
+    cursor: pointer;
+    
+}
+
+bottom:hover{
+    background-color: steelblue;
+    box-shadow: 3px 2px skyblue;
+}
+
+bottom:active{
+    background-color: springgreen;
+    position: relative;
+    top:1px;
+    left:1px;
+}
+
+
+div#message, #message2, #message3, #message4, #message5, #message6, #message7, #message8, #message9{
+    position: relative;
+    background-color: royalblue;
+    width: 30em;
+    padding: 1em;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    visibility: hidden;
+    color: snow;
+}
+
+#Documento{
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+}
