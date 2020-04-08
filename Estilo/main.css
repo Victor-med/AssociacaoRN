@@ -38,6 +38,55 @@ ul.list-header li{
     font-size: 1em;
 }
 
+@media (max-width:768px){
+
+    header{
+        width: 100%;
+        height: 10em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    ul.list-header li{
+        margin: 1em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:400px){
+
+    ul.list-header li{
+        display: block;
+        font-size: 0.8em;
+    }
+
+    #logoh{
+        max-width: 40px;
+    }
+
+    #loginh{
+        max-width: 20px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        align-content: stretch;
+    }
+
+    footer figure img{
+        margin: 0.8em;
+    }
+
+    #copyright{
+        text-align: center;
+    }
+}
+
 li a{
     text-decoration: none;
     color: #353a36;
@@ -89,36 +138,6 @@ footer p{
     header ul{
         margin-top: 10vw;
         margin-left: 5vw;
-    }
-
-    ul.list-header-sandwich{
-        visibility: hidden;
-    }
-
-    @media screen and (max-width: 1200px){
-        nav ul.list-header{
-            visibility: hidden; 
-        }
-
-        nav ul.list-header-sandwich{
-            position: absolute;
-            top: 3em;
-            left: 40vw;
-            visibility: visible;
-            list-style-type: none;
-            background-color: #fdf659;
-            text-align: center;
-        }
-
-        ul.list-header-sandwich li{
-            padding-bottom: 1em;
-            padding-top: 0.5em;
-            font-size: 1em;
-        }
-
-        ul.list-header-sandwich li:hover{
-            background-color: #2ccf7a;
-        }
     }
 
     div#copyright{
