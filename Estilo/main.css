@@ -54,7 +54,7 @@ ul.list-header li{
     }
 }
 
-@media (max-width:400px){
+@media (max-width:415px){
 
     ul.list-header li{
         display: block;
