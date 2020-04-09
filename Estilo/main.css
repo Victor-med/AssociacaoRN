@@ -62,7 +62,11 @@ ul.list-header li{
         display: block;
         font-size: 0.8em;
     }
-
+ 
+    ul.list-header{
+        margin-bottom:-2em;
+    }
+	
     #logoh{
         max-width: 45px;
     }
