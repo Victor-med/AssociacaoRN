@@ -34,7 +34,9 @@ figure.oi img{
 
 ul.list-header li{
     display: inline;
-    margin: 2.5em;
+    margin-left: 2.5em;
+    margin-rigth:2.5em;
+    margin-bottom:1em;
     font-size: 1em;
 }
 
@@ -62,11 +64,11 @@ ul.list-header li{
     }
 
     #logoh{
-        max-width: 40px;
+        max-width: 45px;
     }
 
     #loginh{
-        max-width: 30px;
+        max-width: 35px;
     }
 
     header{
