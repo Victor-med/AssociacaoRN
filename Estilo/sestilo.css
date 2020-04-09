@@ -17,11 +17,17 @@ main{
 	div#alles img{
 		max-width:200px;
 	}
+	bottom{
+		margin-left:1em;
+	}
 }
 
 @media(max-width:415px){
 	div#alles img{
 		max-width:125px;
+	}
+	bottom{
+		margin-left:1em;
 	}
 }	
 
