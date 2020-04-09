@@ -61,6 +61,7 @@ ul.list-header li{
     ul.list-header li{
         display: block;
         font-size: 0.8em;
+	margin-bottom:-0.6em;
     }
  
     ul.list-header{
