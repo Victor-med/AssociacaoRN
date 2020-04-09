@@ -5,6 +5,17 @@ main{
     height: 47em;
 }
 
+@media (max-width:770px){
+   main{
+    height:50em;
+  }		   
+}
+
+@media(max-width:415px){
+	main{
+		height:60em;	
+	}
+}
 h1{
     text-align: center;
     font-size: 3em;
