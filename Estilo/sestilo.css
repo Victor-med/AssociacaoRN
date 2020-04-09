@@ -19,6 +19,7 @@ main{
 		font-size: 0.8em;
 	}
 	div#alles img{
+		margin-right: 1em;
 		max-width:200px;
 	}
 	bottom{
