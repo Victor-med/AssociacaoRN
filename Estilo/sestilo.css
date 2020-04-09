@@ -29,14 +29,17 @@ main{
 
 @media(max-width:415px){
 	main{
-		height:300em;
+		height:320em;
 		font-size:0.6em;
 	}
 	div#alles img{
-		max-width:125px;
+		max-width:120px;
 	}
 	bottom{
 		margin-left:1em;
+	}
+	#Documento{
+		width:70%;
 	}
 }	
 
