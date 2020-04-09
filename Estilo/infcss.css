@@ -7,14 +7,26 @@ main{
 
 @media (max-width:770px){
    main{
-    height:51em;
+    height:49em;
   }		   
 }
 
 @media(max-width:415px){
+
 	main{
-		height:60em;	
-	}
+		height:80em;	
+    }
+    
+    #robert{
+    font-size: 0.5em;    
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+    height: 10em;
+    border: 1px solid slateblue;
+    }
+
 }
 h1{
     text-align: center;
