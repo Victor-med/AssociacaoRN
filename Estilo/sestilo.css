@@ -42,14 +42,6 @@ main{
 		height:320em;
 		font-size:0.6em;
 	}
-	
-	div#alles img{
-		visibility: hidden;
-	}
-	div#alles button{
-		visibility:hidden;
-	}
-	
 	bottom{
 		margin-left:1em;
 	}
