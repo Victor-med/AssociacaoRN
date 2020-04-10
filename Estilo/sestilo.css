@@ -20,7 +20,6 @@ main{
 	}
 	div#alles img{
 		margin-right: 2em;
-		max-width:190px;
 	}
 	bottom{
 		margin-left:1em;
@@ -42,9 +41,6 @@ main{
 	main{
 		height:320em;
 		font-size:0.6em;
-	}
-	div#alles img{
-		max-width:120px;
 	}
 	bottom{
 		margin-left:1em;
