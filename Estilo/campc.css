@@ -1,37 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
 
-@media(max-width:415px{
-    main{
-        margin: 0 auto;
-        padding: 2em;
-        width: 64%;
-        text-align: center;
-        text-align: justify;
-        background-color: white;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size:0.7em;
-        height:250em;
-    }
-}
-
-@media(max-width:770px){
-    main{
-        margin: 0 auto;
-    padding: 2em;
-    width: 64%;
-    text-align: center;
-    text-align: justify;
-    background-color: white;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    font-family: 'PT Sans Caption', sans-serif;
-       height:240em; 
-    }
-}
-
 main{
     margin: 0 auto;
     padding: 2em;
