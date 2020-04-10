@@ -56,6 +56,17 @@ main{
 	#Documento{
 		width:70%;
 	}
+	div#message, #message2, #message3, #message4, #message5, #message6, #message7, #message8, #message9{
+	    position: relative;
+	    background-color: royalblue;
+	    width: 30em;
+	    padding: 1em;
+	    font-family: 'PT Sans Caption', sans-serif;
+	    font-size: 5px;
+	    text-align: center;
+	    visibility: visible;
+	    color: snow;
+}
 }	
 
 h1{
