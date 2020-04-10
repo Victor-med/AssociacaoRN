@@ -14,6 +14,19 @@ main{
     font-family: 'PT Sans Caption', sans-serif;
 }
 
+@media(max-width:770px){
+    main{
+        height: 240em;
+    }
+}
+
+@media(max-width:415px){
+    main{
+        font-size: 0.7em;
+        height: 250em;
+    }
+}
+
 h1{
     text-align: center;
     font-size: 3em;
