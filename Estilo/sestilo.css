@@ -21,7 +21,7 @@ main{
 	div#alles img{
 		margin-right: 2em;
 	}
-	bottom{
+	button{
 		margin-left:1em;
 	}
 	div#message, #message2, #message3, #message4, #message5, #message6, #message7, #message8, #message9{
@@ -42,7 +42,15 @@ main{
 		height:320em;
 		font-size:0.6em;
 	}
-	bottom{
+	
+	div#alles img{
+		visibility: hidden;
+	}
+	div#alles button{
+		visibility:hidden;
+	}
+	
+	button{
 		margin-left:1em;
 	}
 	#Documento{
