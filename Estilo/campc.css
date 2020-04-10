@@ -25,6 +25,9 @@ main{
         font-size: 0.7em;
         height: 250em;
     }
+    div#bloco{
+        width:50%;
+    }
 }
 
 h1{
