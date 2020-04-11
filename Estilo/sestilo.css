@@ -46,16 +46,12 @@ main{
 		visibility:hidden;
 	}
 	div#alles{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		align-content: stretch;
-		text-align:center;
-		padding:2em;
+		padding:7.5em;
 	}
-	#Documento{
+	div#alles img{
+		margin-bottom:2em;
+	}
+	#Documento img{
 		width:70%;
 	}
 }	
