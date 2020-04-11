@@ -45,7 +45,7 @@ main{
 	bottom{
 		visibility:hidden;
 	}
-	div#alles img{
+	div#alles{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
