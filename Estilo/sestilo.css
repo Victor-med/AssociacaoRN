@@ -46,7 +46,14 @@ main{
 		visibility:hidden;
 	}
 	div#alles img{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: stretch;
 		text-align:center;
+		padding:2em;
 	}
 	#Documento{
 		width:70%;
