@@ -22,7 +22,7 @@ main{
 
 @media(max-width:415px){
     main{
-        font-size: 0.7em;
+        font-size: 0.6em;
         height: 250em;
     }
     div#bloco{
