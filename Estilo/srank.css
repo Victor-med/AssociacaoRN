@@ -11,6 +11,15 @@
     main{
         font-size:0.39em;
     }
+    main table{
+        font-size:0.25em;
+    }
+}
+
+@media(max-width:361px){
+    main{
+        font-size:0.39em;
+    }
 }
 
 main{
